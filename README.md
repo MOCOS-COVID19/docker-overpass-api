@@ -7,7 +7,7 @@ OpenStreetMap Docker for [Overpass API](http://wiki.openstreetmap.org/wiki/Overp
 Download a OSM file in XML format compressed in bzip format and save as `planet.osm.bz2`. [Geofabrik](http://download.geofabrik.de/) is an excellent resource for this.
 
 ```
-curl -o planet.osm.bz2 http://download.geofabrik.de/australia-oceania/new-zealand-latest.osm.bz2
+curl -o planet.osm.bz2 https://download.geofabrik.de/europe/poland-latest.osm.bz2
 docker build -t mediasuite/overpass-api .
 ```
 
